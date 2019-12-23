@@ -1,0 +1,73 @@
+.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+
+.large-header {
+   background-image: url("images/iium.jpg");
+}
+
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.main-title {
+   font-size: 4.2em;
+}
+
+.main-title .thin {
+   font-weight: 200;
+   color: #addddb;
+}
+.TextBox{
+  border: #solid 10px #000;
+  background-color: rgba(62, 62, 62, 0.8);
+  width:100%;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+@media only screen and (max-width: 768px) {
+   .main-title {
+      font-size: 3em;
+   }
+}
+
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.guidelines{
+  font-size:20px;
+  left: 50%;
+  margin-left: +50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  text-align:left;
+}
+
+.guidelines em{
+  font-weight: 700;
+  color: rgb(64, 98, 184)
+}
+.guidelines ul{
+  text-transform:none;
+  text-align:left;
+  left: 50%;
+  margin-left: +50px;
+  margin-right: 50px;
+  font-size:20px;
+}

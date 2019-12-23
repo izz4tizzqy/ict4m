@@ -1,0 +1,24 @@
+.paragraph{
+  font-family: 'Opensans', sans-serif;
+  text-transform:none;
+  text-align:left;
+  left: 50%;
+  margin-left: +50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  font-size:20px;
+  margin-bottom:50px;
+}
+.paragraph important{
+  color: rgb(69, 110, 136);
+  text-decoration:underline;
+  font-weight: bold;
+}
+
+.paragraph warn{
+  color: red;
+  text-decoration: bold;
+}
+.paragraph information{
+  font-weight: bolder;
+}
