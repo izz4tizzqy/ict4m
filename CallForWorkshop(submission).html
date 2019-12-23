@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body style="overflow:hidden">
+    <div class="container demo">
+   <div class="content">
+      <div id="large-header" class="large-header animated fadeInLeft delay-1s">
+        <aside class="sidebar">
+          <nav class="sidebar-nav">
+            <ul>
+              <li><a href="index.html"><i class="ion-home"></i>
+                <span>Home</span></a></li>
+              <li>
+                <a href="#"><i class="ion-help" style="margin-left:5px"></i>
+                  <span style="margin-left:5px">About</span></a>
+                  <ul class="nav-flyout">
+                    <li><a href="about.html">ICT4M</a></li>
+                    <li><a href="Committee.html">Committee</a></li>
+                    <li><a href="PreviousICT4M.html">Previous ICT4Ms</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#"><i class="ion-upload"></i>
+                    <span>Submission</span></a>
+                    <ul class="nav-flyout">
+                      <li><a href="CallForPapers.html">Call for Papers</a></li>
+                      <li><a href="CallForWorkshop.html">Call for Workshop</a></li>
+                      <li><a href="ImportantDates.html">Important Dates</a></li>
+                      <li><a href="SubmissionGuidelines.html">Submission Guidelines</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#"><i class="ion-briefcase"></i>
+                      <span>Program</span></a>
+                      <ul class="nav-flyout">
+                        <li><a href="Conference.html">Conference</a></li>
+                        <li><a href="KeynoteSpeakers.html">Keynote Speakers</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-cash"></i>
+                        <span>Fees & Registration</span></a>
+                        <ul class="nav-flyout">
+                          <li><a href="ConferenceFees.html">Conference Fees</a></li>
+                          <li><a href="WorkshopFees.html">Workshop Fees</a></li>
+                          <li><a href="Registration.html">Registration</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ion-map"></i>
+                          <span>Location</span></a>
+                          <ul class="nav-flyout">
+                            <li><a href="ConferenceVenue.html">Conference Venue</a></li>
+                            <li><a href="WorkshopVenue.html">Workshop Venue</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </nav>
+                  </aside>
+         <canvas id="demo-canvas"></canvas>
+         <div class="main-title" style="overflow: auto; width:1000px; height: 900px;">
+           <div class="" role="group">
+             <img src="css/images/logo.png" alt="Logo">
+           </div>
+           <div role="group" class="">
+             <button class="btn draw-border"
+             onclick="window.location.href='about.html'">About</button>
+             <button class="btn draw-border"
+             onclick="window.location.href='ConferenceFees.html'">Fees</button>
+             <button class="btn draw-border"
+             onclick="window.location.href='SubmissionGuidelines.html">Guidelines</button>
+           </div>
+           <div class="" style="margin-top: 20px;">
+             <br>
+               <form method="POST" class=""
+               style="width:600px;
+               margin-left:200px;
+               margin-right:100px">
+                 <fieldset>
+                   <legend
+                   style="text-align:center;font-size:30px">UPLOAD YOUR PROPOSALS</legend>
+                   <br>
+                 </fieldset>
+                   <div class="input-group">
+                       <input class="input--style-3" type="text" placeholder="Title" name="title">
+                   </div>
+                   <div class="input-group">
+                       <input class="input--style-3 js-datepicker" type="text" placeholder="Author" name="Author">
+                   </div>
+                   <div>
+                     <form  action="/action_page.php">
+                       <input type="file" name="myFile"><br><br>
+                       <input class="btn draw-border" type="submit">
+                     </form>
+                   </div>
+                   <br>
+               </form>
+           </div>
+         </div>
+      </div>
+   </div>
+</div>
+<script type="text/javascript" src="TweenLite.min.js"></script>
+<script type="text/javascript" src="EasePack.min.js"></script>
+<script type="text/javascript" src="demo.js"></script>
+<!-- Jquery JS-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<!-- Vendor JS-->
+<script src="vendor/select2/select2.min.js"></script>
+<script src="vendor/datepicker/moment.min.js"></script>
+<script src="vendor/datepicker/daterangepicker.js"></script>
+
+<!-- Main JS-->
+<script src="js/global.js"></script>
+<footer>HI</footer>
+  </body>
+
+</html>
